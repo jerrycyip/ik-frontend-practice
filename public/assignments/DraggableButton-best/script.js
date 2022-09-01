@@ -52,8 +52,8 @@ function drag(e) {
 
 function dragEnd() {
   // As the mouse is up the element is at new location so this becomes new initial values
-  initialX = currentX;
-  initialY = currentY;
+  initialX = currentX; // not needed?
+  initialY = currentY; // not needed?
   isMouseDown = false;
 }
 
